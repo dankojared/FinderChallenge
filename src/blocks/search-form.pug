@@ -1,2 +1,11 @@
 .search-form
-    h1 search form
+    input(
+        type="text"
+        onkeyup="validarButton(this.value);"
+        class="awesomplete"
+        id="InputSearch"
+    )
+    button(
+        id ="buttonSearch"
+        disabled="true"
+    ) Buscar
