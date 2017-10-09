@@ -17,8 +17,8 @@
         </div>
         <div class="pure-u-7-24">
           <div class="search-form">
-            <input class="awesomplete" type="text" onkeyup="validarButton(this.value);" id="InputSearch">
-            <button id="buttonSearch" disabled="true">Buscar</button>
+            <input class="awesomplete" type="text" onkeyup="validarButton(this.value, event);" id="InputSearch">
+            <button class="button_search_disabled" id="buttonSearch" disabled="true" onclick="search()">Buscar</button>
           </div>
         </div>
         <div class="pure-u-1-3"></div>

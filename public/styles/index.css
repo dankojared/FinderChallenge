@@ -5,6 +5,27 @@
   max-width: 960px;
   margin: 0 auto;
 }
+.divClass {
+  width: 100%;
+}
+.divClass .card_inline {
+  width: 33%;
+  display: inline-block;
+}
+.divClass .img_inline {
+  margin-top: 10px;
+}
+.button_search_disabled {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  opacity: 0.65;
+}
+.button_search {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
 .search-form {
   margin-top: 30px;
 }

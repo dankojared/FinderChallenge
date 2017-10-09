@@ -1,11 +1,13 @@
 .search-form
     input(
         type="text"
-        onkeyup="validarButton(this.value);"
+        onkeyup="validarButton(this.value, event);"
         class="awesomplete"
         id="InputSearch"
     )
     button(
         id ="buttonSearch"
         disabled="true"
+        onclick="search()"
+        class="button_search_disabled"
     ) Buscar
